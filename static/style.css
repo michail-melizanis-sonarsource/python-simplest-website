@@ -55,6 +55,20 @@ body {
     margin: 10px;
 }
 
+.add-btn:hover {
+    color: #029902;
+    background-color: #00ff002f;
+    border: 1px solid #029902;
+    border-radius: 5px;
+}
+
+.add-btn:focus {
+    color: #029902;
+    background-color: #00ff002f;
+    border: 1px solid #029902;
+    border-radius: 5px;
+}
+
 .form-feild {
     height: 40px;
     width: 200px;
