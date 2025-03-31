@@ -8,4 +8,25 @@
 <p>Look into the code in app.py to see how the user's name is passed from the previous page(home.html) to this one</p>
 <br>
 
+<h2>Account Details</h2>
+<p>Here you can manage your account settings and preferences.</p>
+<br>
+<section>
+    <h3>Account Settings</h3>
+    <form action="/update" method="POST">
+        <input type="text" name="username" placeholder="New Username" class="form-field"><br>
+        <input type="email" name="email" placeholder="New Email" class="form-field"><br>
+        <button type="submit" class="add-btn">Update</button>
+        <button type="reset" class="remove-btn">Clear</button>
+    </form>
+</section>
+<br>
+<section>
+    <h3>Delete Account</h3>
+    <form action="/delete" method="POST">
+        <button type="submit" class="remove-btn">Delete Account</button>
+    </form>
+</section>
+<br>
+
 {% endblock %}

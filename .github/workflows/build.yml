@@ -1,10 +1,7 @@
 name: Build
 
 on:
-  push:
-    branches:
-      - main
-      - '**'
+  push: # Trigger on every push to any branch
   pull_request:
     types: [opened, synchronize, reopened]
 
