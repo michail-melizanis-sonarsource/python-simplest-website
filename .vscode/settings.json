@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "https-nautilus2-sonarqube-org",
+        "projectKey": "michail-melizanis-sonarsource_python-simplest-website_93c392c3-6159-4781-b465-bdb64b5b143b"
+    }
+}
